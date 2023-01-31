@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #94D9EA;
+    background-color: #828e91;
 }
 
 .main-content{
@@ -21,7 +21,7 @@ body{
 .left-section{
     grid-column: span 2;
     height: 100%;
-    background-color: #00324A;
+    background-color: #10436c;
 }
 .right-section{
     grid-column: span 5;
@@ -97,7 +97,7 @@ body{
 .skills-section ul li{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: .4rem 0;
+    padding: .75rem 0;
 }
 
 .progress-bar{
@@ -178,7 +178,7 @@ body{
 .right-title::after{
     content: "";
     position: absolute;
-    width: 60%;
+    width: 57%;
     height: .2rem;
     background-color: #ccc;
     border-radius: 12px;
